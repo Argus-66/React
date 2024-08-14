@@ -17,7 +17,7 @@ function card(props) { // instead of props u can just do{username} to directly a
       debitis?
     </p>
     <button className="mt-2 inline-flex cursor-pointer items-center text-sm font-semibold text-white">
-      View Profile →
+      {props.btnText || "Visit Me"} →
     </button>
   </div>
 </div>
